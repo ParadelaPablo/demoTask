@@ -38,6 +38,10 @@ public class Task {
         this.name = name;
     }
 
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
     @Override
     public String toString() {
         return "Task{" +
